@@ -1,0 +1,136 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: Rubik;
+    background-color: $primary_bg;
+}
+
+.navbar-nav{
+.nav-item .nav-link{
+	margin: 5px 20px;
+	color: #000;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 20px;
+	line-height: normal;
+
+	&:hover{
+		color: red;
+	}
+	}
+
+}
+.btn-first {
+	padding: 5px 27px !important;
+	margin: 7px 50px;
+	border-radius: 61px;
+	color: white;
+	background-color: red;
+	font-weight: bold;
+
+	&:hover{
+		background-color: gray;
+		color: white;
+	}
+}
+.btn-second {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 86px;
+	border: 1px solid #C9BFBF;
+	opacity: 0.800000011920929;
+	background: linear-gradient(162deg, #E40605 0%, rgba(232, 54, 53, 0.00) 100%);
+	box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.25);
+  }
+
+@media (max-width: 768px) {
+
+	.btn-first {
+		width: 500px;
+
+	}
+	// .btn-second {
+	// 	margin-left: 7px;
+	// 	margin-top: 15px;
+	// 	left: 12%;
+	// 	top: 80%;
+	// 	-webkit-transition: none;
+	// 	transition: none;
+	// }
+  }
+
+  .splash {
+	position: relative;
+  
+	.img-first {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+  	background-size: cover;
+	z-index: 1;
+	}
+  
+		.img-second:last-child {
+		  width: 500px;
+		  height: auto;
+		  margin-top: 7%;
+		  margin-bottom: 7%;
+		  padding-top: 10%;
+		  padding-bottom: 7%;
+		  z-index: 1;
+	  }
+  }
+
+// .bg-home img{
+// 	width: 100%;
+// 	height: auto;
+// 	margin-top: 30%;
+// 	position: absolute;
+// }
+
+// .col-md-3 {
+// 	margin-top: 41%;
+// 	margin-left: 11%;
+// 	margin-right: 5%;
+// 	z-index: 3;
+
+// }
+
+.text-learn-second{
+	text-decoration: none;
+	display: flex;
+}
+.text-learn-second p{
+	display: flex;
+	color: black;
+	font-family: Rubik;
+	font-weight: normal;
+	text-align: justify;
+}
+
+@media (max-width: 768px) {
+
+	.col-md-3 {
+		margin-top: 35%;
+		margin-right: 5%;
+	}
+	.text-learn p{
+		margin-left: 10%;
+		margin-top: 93%;
+		z-index: 775;
+		text-decoration: none !important;
+	}
+  }
+
+// .section mt-3{
+// 	background-image: url("./img/main_bg.png");
+// 	width: 100%;
+// 	height: auto;
+// 	margin-top: 20%;
+// 	position: absolute;
+// }
