@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style/main.css" />
+  <title>Homepage</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg navbar-light ml-auto ms-auto sticky-top" data-spy="affix"
+    data-offset-top="0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><img src="style/img/logo.png" alt="" class="position-absolute top-0"
+          style="width: 120px; height: 120px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-item-center mx-5 ">
+          <li class="nav-item mx-auto me-auto">
+            <a class="nav-link active" aria-current="page" href="index.html#">Home</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link" href="index.html#location">Location</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+          <!-- <li class="nav-item mx-auto">
+            <a class="btn btn-first" href="Travel.html">Travel</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- NAVBAR END -->
+
+  <!-- Make Your Review -->
+  <div class="row">
+    <div class="col-md-2 position-absolute " style="margin-left: 1070px; text-align: right;">
+        <h3 class="mt-5"  style="color: #CA3636; font-size: 40px; text-shadow: 10px 6px 6px 0px rgba(0, 0, 0, 0.25);">Make Your Review</h3>
+    </div>
+  </div>
+
+  <img src="./style/img/review.png" class="position-absolute" style="width: 700px; margin-left: 650px; margin-top: 230px;">
+
+  <!-- Star rating -->
+  <form action="/">
+    <p class="position-absolute" style="color: #CA3636; margin-top: 60px; margin-left: 270px;">How many star?</p>
+      <div class="position-absolute " style="margin-top: 70px; margin-left: 200px;">
+        <div class="stars shadow-lg">
+          <input type="radio" id="five" name="rate" value="5">
+          <label for="five"></label>
+          <input type="radio" id="four" name="rate" value="4">
+          <label for="four"></label>
+          <input type="radio" id="three" name="rate" value="3">
+          <label for="three"></label>
+          <input type="radio" id="two" name="rate" value="2">
+          <label for="two"></label>
+          <input type="radio" id="one" name="rate" value="1">
+          <label for="one"></label>
+          <span class="result"></span>
+        </div>
+     </div>
+  <!-- End star rating -->
+
+  <div class="row">
+    <div class="col-md-4 ms-5" style="margin-top: 170px;">
+      <h4 for="name" style="color: #CA3636;">Nickname</h4>
+      <input type="text" id="name" name="name" required placeholder="Masukkan Nama" style="color: black; border-radius: 34px; background: #FFF; box-shadow: 10px 12px 15px 0px rgba(0, 0, 0, 0.25); border: none; width: 500px; height: 50px; padding-left: 25px;"></input>
+      
+      <h4 for="review" style="color: #CA3636;" class="mt-4">Review</h4>
+      <textarea name="review" id="review" cols="30" rows="10" style="border-radius: 34px; background: #FFF; box-shadow: 10px 12px 15px 0px rgba(0, 0, 0, 0.25); border: none; width: 500px; padding-left: 25px; padding-top: 10px;height: 200px;"></textarea>
+
+      <input type="submit" value="Send" style="border-radius: 44px; border: 1px solid #C9BFBF; background: linear-gradient(170deg, #e42222 20%, rgba(252, 54, 40, 0.00) 100%); box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.25); color: white; font-family: Rubik; font-size: 15px;" class="py-2 px-5 mt-2">
+    </div>
+  </div>
+</form>
+
+  <!-- End your review -->
+
+  <!-- footer -->
+  <div class="footer" style="margin-top: 350px;">
+    <div class="card-body" style="background: linear-gradient(0deg, #B43333 0%, rgba(180, 51, 51, 0.00) 100%);
+  padding-top: 200px;">
+      <div class="row">
+        <div class="col-md-1">
+          <img src="./style/img/logo.png"  class="position-absolute"  style="width: 90px; margin-left: 37px;"></a>
+        </div>
+        <div class="col-md-2 text-start mt-2 ms-2" style="color: white;">  
+          <h5>NT TEAM</h5>
+          <p style="font-size: small;">Official Website</p>
+        </div>
+        </div>
+      <div class="row align-item-center justify-content-center d-flex mt-3 py-3 ">
+        <p style="text-align: center; font-size: small; color: white; font-weight: normal; font-family: Rubik;">Copyright ©      2023</p>
+      </div>
+    </div>
+  </div>
+    <!-- End footer -->
+
+  </body>
+</html>
